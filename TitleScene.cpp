@@ -22,7 +22,7 @@ void TitleScene::Draw()
 		0, 0,
 		1280, 720,
 		0.0f,
-		BLUE,
+		0xFFFF0040,
 		kFillModeSolid
 	);
 }

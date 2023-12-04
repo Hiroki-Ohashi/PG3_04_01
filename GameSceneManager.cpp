@@ -19,6 +19,7 @@ int GameSceneManager::Run()
 {
 	while (Novice::ProcessMessage() == 0) {
 		Novice::BeginFrame();
+
 		// キー入力を受け取る
 		memcpy(preKeys, keys, 256);
 		Novice::GetHitKeyStateAll(keys);
